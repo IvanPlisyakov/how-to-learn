@@ -9,7 +9,6 @@
   max-width: 1600px;
   /* выше установили ограничение по максимальной ширине */
   margin: 0 auto;
-  /* выше для экранов больше 1600px отцентрировали весь контент */
   font-family: 'Helvetica Neue', Arial, sans-serif;
 }
 
@@ -25,7 +24,6 @@
 }
 
 .logo {
-  background-position: center; /* <-- На всякий случай*/
   background-size: cover;
   z-index: 666;
 }
@@ -69,7 +67,6 @@
   position: absolute;
   bottom: 0px;
   right: 0px;
-  background-position: center; /* <-- На всякий случай*/
   background-size: cover;
 }
 
