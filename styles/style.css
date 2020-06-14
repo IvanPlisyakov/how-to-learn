@@ -191,7 +191,8 @@
 }
 
 .feynman__title {
-  margin: 100px 0 70px 0;
+  margin: 100px auto 70px auto;
+  width: 648px;
   text-align: center;
   line-height: 1.15;
   font-size: 120px;
@@ -199,6 +200,7 @@
 }
 
 .feynman__subtitle {
+  margin: 70px auto 0 auto;
   text-align: center;
   line-height: 51px;
   font-size: 36px;
