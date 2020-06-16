@@ -1,7 +1,56 @@
-.page_indent_zeroing {
+/*поехали*/
+.page,
+.header,
+.logo,
+.logo_place_header,
+.header__title,
+.header__subtitle,
+.header__link,
+.header__main-illustration,
+.header__square-pic,
+.description,
+.two-columns,
+.two-columns__brief,
+.two-columns__main-text,
+.two-columns__paragraph,
+.two-columns__paragraph:nth-of-type(3),
+.two-columns__span-accent,
+.digits,
+.section-title,
+.section-subtitle,
+.table,
+.table__cell,
+.table__heading,
+.table__text,
+.feynman,
+.feynman__title,
+.feynman__subtitle,
+.feynman__link,
+.feynman__main-illustration,
+.kaufman,
+.section-title_theme_dark,
+.section-subtitle_theme_dark,
+.table_theme_dark,
+.table__cell_theme_dark,
+.table__heading_theme_dark,
+.table__text_theme_dark,
+.kaufman__triangle,
+.footer,
+.footer__columns,
+.footer__column_content_copyright,
+.logo_place_footer,
+.footer__author,
+.footer__column_content_info,
+.footer__column-heading,
+.footer__column-links,
+.footer__column-link,
+.footer__column_content_social,
+.footer__social-icon {
   margin: 0;
   padding: 0;
-  }
+}
+/*закончили. Кол-во песен прослушанных во время написания всех классов: 2*/
+
 .page {
   min-width: 1100px;
   /* мы ещё не умеем делать мобильную версию сайта, */
@@ -61,7 +110,7 @@
   text-decoration: none;
 }
 
-.header__main-illustration{
+.header__main-illustration {
   width: 765px;
   height: 608px;
   position: absolute;
@@ -70,7 +119,7 @@
   background-size: cover;
 }
 
-.header__square-pic{
+.header__square-pic {
   background-color: #2f80ed;
   width: 568px;
   height: 568px;
