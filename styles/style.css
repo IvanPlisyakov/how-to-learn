@@ -1,5 +1,4 @@
-/*поехали*/
-.page,
+/*.page,
 .header,
 .logo,
 .logo_place_header,
@@ -48,8 +47,17 @@
 .footer__social-icon {
   margin: 0;
   padding: 0;
-}
-/*закончили. Кол-во песен прослушанных во время написания всех классов: 2*/
+}*/
+
+.header__title,
+.header__subtitle,
+.two-columns__brief,
+.two-columns__paragraph,
+.footer__column-heading,
+.footer__column-links {
+  margin: 0px;
+  padding: 0px;
+}/*я потратил намного больше песен чем две :-(*/
 
 .page {
   min-width: 1100px;
@@ -165,8 +173,8 @@
   margin-bottom: 30px;
 }
 
-.two-columns__paragraph:nth-of-type(3) {
-  margin-bottom: 0;
+.two-columns__paragraph:last-child {
+  margin-bottom: 0px;
 }
 
 .two-columns__span-accent {
@@ -310,7 +318,7 @@
 }
 
 .kaufman__triangle {
-  background-image: url(/images/kaufman-triangle.svg);
+  background-image: url(../images/kaufman-triangle.svg);
   width: 877px;
   height: 877px;
   background-position: center;
@@ -337,11 +345,17 @@
   justify-content: space-between;
 }
 
+/*.footer__column {
+  тут должно быть нечто общее, между всеми тремя колонками,
+   но у меня такого не нашлось(в slack сказали, что это не считают за ошибку)
+}*/
+
 .footer__column_content_copyright {
   flex-basis: 711px;
+  display: flex;
   flex-direction: column;
   align-items: flex-start;
-  margin: 0;
+  justify-content: space-between;
 }
 
 .logo_place_footer {
@@ -361,8 +375,6 @@
 
 .footer__column_content_info {
   width: auto;
-  margin: 0;
-  display: block;
 }
 
 .footer__column-heading {
@@ -380,7 +392,7 @@
   list-style-type: none;
 }
 
-.footer__column-link {/*ссылки*/
+.footer__column-link {
   text-decoration: none;
   color: white;
   line-height: 30px;
@@ -390,8 +402,6 @@
 
 .footer__column_content_social {
   width: auto;
-  margin: 0;
-  display: block;
 }
 
 .footer__social-icon {
