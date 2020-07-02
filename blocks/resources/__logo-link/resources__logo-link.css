@@ -1,7 +1,7 @@
-.link-opacity {
+.resources__logo-link {
   transition: opacity .4s linear;
 }
 
-.link-opacity:hover {
+.resources__logo-link:hover {
   opacity: .75;
 }

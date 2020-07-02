@@ -1,6 +1,6 @@
-@import url(./_margin_center-top/section-subtitle_margin_center-top.css);
-@import url(./_theme_dark/section-subtitle_theme_dark.css);
-@import url(./_margin_all/section-subtitle_margin_all.css);
+@import url(./_margin/section-subtitle_margin_center-top.css);
+@import url(./_theme/section-subtitle_theme_dark.css);
+@import url(./_margin/section-subtitle_margin_all.css);
 .section-subtitle {
   width: 60%;
   line-height: 34px;

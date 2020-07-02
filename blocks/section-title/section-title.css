@@ -1,5 +1,5 @@
-@import url(./_margin_center-bottom/section-title_margin_center-bottom.css);
-@import url(./_theme_dark/section-title_theme_dark.css);
+@import url(./_margin/section-title_margin_center-bottom.css);
+@import url(./_theme/section-title_theme_dark.css);
 .section-title {
   width: 60%;
   line-height: 1.15;
